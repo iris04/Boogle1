@@ -1,0 +1,48 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+}
+
+.title {
+margin-top: 50px;
+
+  width: 0 auto;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.logo {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.loginfield {
+margin-top: 100px;
+
+  background-color: lightgrey;
+  width: 200px;
+  margin: 0 auto;
+
+}
+
+.logingimg{
+  margin-left: 50px;
+  margin-top: 20px;
+  
+
+
+}
+
+.loginform {
+  position: relative;
+  margin-top: 10px
+}
+
+.logstrip {margin: 50px;
+}
