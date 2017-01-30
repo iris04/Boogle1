@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Iris schneidet</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link  href="styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+      <div class="panel panel-default"> <!-- services -->
+        <div class="panel-heading text-center"><h1>Our Services</h1> </div>
+        <div class="panel-body">
+        <div class="row">
+    <div class="col-md-4">
+        <div class="list-group">
+        <a href="#" class="list-group-item disabled">  Styling <span class="pull-right"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></span></a>
+        <a class="list-group-item">  <img class="img-rounded" src="Styling.png" width=400px height=480px></a>
+        </div>
+        </div>
+    <div class="col-md-4">
+        <div class="list-group">
+        <a  class="list-group-item disabled"> Coloring <span class="pull-right"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
+        </a>  <a class="list-group-item">  <img class="img-rounded" src="Color.png" width=400px height=auto></a>
+        </div>
+        </div>
+    <div class="col-md-4">
+        <div class="list-group"><a  class="list-group-item disabled">Haircuts <span class="pull-right"> <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></span  </a>
+        <a class="list-group-item">  <img class="img-rounded" src="Haircuts.png" width=300px height=480px></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<div class=appointment>
+<div class="panel panel-default"> <!-- Make an appointment -->
+  <div class="panel-heading text-center"><h1>Make an appointment</h1></div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-2"> </div>
+  <div class="col-md-3">
+  <form>
+  <div class="form-group" position=absolute border-top=-50px>
+    <input type="Text" class="form-control" id="Name" placeholder="First and last name" required autofocus>
+  </div>
+  <div class="form-group">
+    <input type="Text" class="form-control" id="phone" placeholder="Phone number">
+  </div>
+  <div class="form-group">
+    <input type="Text" class="form-control" id="Date" placeholder="Date" required autofocus>
+  </div>
+  <textarea class="form-control" rows="4" placeholder="Other information"></textarea>
+  <div class="checkbox">
+  <label>
+  <input type="checkbox">I agree that Hans is the best friseur
+  </label>
+  </div>
+  <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-1"><input class="btn btn-primary" type="send" value="Send" background-color=lightgray></div>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="col-md-1"> </div>
+
+
+
+  <div class="col-md-4">
+  <div class="table-responsive">
+  <table class="table table-bordered">
+     <tbody>
+       <tr class="active">
+         <td><strong>Day</strong></td> <td><strong>Working Hours</strong></td>
+       </tr>
+  </div>
+       <tr>
+            <td>Monday</td> <td>8.00-16.00</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td> <td>10.00-18.00</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td> <td>8.00-16.00</td>
+          </tr>
+          <tr>
+            <td>Thursday</td> <td>8.00-16.00</td>
+          </tr>
+          <tr>
+            <td>Friday</td> <td>12.00-20.00</td>
+          </tr>
+          <tr>
+            <td>Saturday</td> <td>8.00-16.00</td>
+          </tr>
+          <tr>
+            <td>Sunday</td> <td>8.00-12.00</td>
+          </tr>
+        </tbody>
+  </table>
+<p>* We don't work on a holiday.</p>
+
+  </div>
+
+
+  </div>
+  </div>
+
+</div>
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Iris</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </body>
+</html>
